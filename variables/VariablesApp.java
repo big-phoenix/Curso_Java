@@ -19,7 +19,20 @@ public class VariablesApp {
 		System.out.print("Edad: " +dia+ "/" +mes+ "/" +any+ "\n");
 		
 		
+		/************************** Fase 2 *****************************************/
 		
+		int traspas = 1948;
+		int temps = 4;
+		int anys = 0;
+		
+		for(var i = traspas; i<= any; i++) {
+			
+			i += temps;
+			anys++;
+			
+		}
+		
+		System.out.print("\nAnys de traspas en " +traspas+ " y " +any+ ": " +anys);
 
 	}
 
