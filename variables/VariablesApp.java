@@ -21,7 +21,7 @@ public class VariablesApp {
 		
 		/************************** Fase 2 *****************************************/
 		
-		int traspas = 1948;
+		final int traspas = 1948;
 		int temps = 4;
 		int anys = 0;
 		
@@ -33,6 +33,9 @@ public class VariablesApp {
 		}
 		
 		System.out.print("\nAnys de traspas en " +traspas+ " y " +any+ ": " +anys);
+		
+		
+		
 
 	}
 
