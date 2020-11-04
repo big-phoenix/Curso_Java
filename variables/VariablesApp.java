@@ -71,6 +71,28 @@ public class VariablesApp {
 			System.out.print(frase2);
 			
 		}
+		
+		/************************ Fase 4 **********************************/
+		
+		System.out.print("\n\n");
+		
+		System.out.print("Exemple de sortida per consola:\n");
+		
+		String nomComplet = "El meu nom és " +nom+ " " +cognom1+ " " +cognom2+ "\n";
+		String dataNaixament = "Vaig néixer el " +dia+ "/" +mes+ "/" +any+ "\n";
+		
+		System.out.print(nomComplet);
+		System.out.print(dataNaixament);
+		
+		if(any % 400 == 0 || (any % 4 == 0 && any % 100 != 0)) {
+			cert = true;
+			System.out.print("El menu any de neixament es de traspas\n");
+			
+		} else {
+			cert = false;
+			System.out.print("El menu any de neixament es de traspas\n");
+			
+		}
 
 	}
 
